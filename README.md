@@ -1,4 +1,4 @@
-# meetings
+# minnits
 
 ## Project setup
 ```

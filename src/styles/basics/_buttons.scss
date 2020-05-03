@@ -1,0 +1,32 @@
+.btn.btn-teal {
+  background-color: $teal;
+  border-color: $teal;
+  color: #fff;
+
+  &:hover,
+  &:active,
+  &:focus {
+    background: darken($teal, 20%);
+  }
+}
+
+.btn.btn-plurple {
+  background-color: $purple;
+  border-color: $purple;
+  color: #fff;
+
+  &:hover {
+    background: darken($purple, 10%);
+    color: lighten($purple, 35%);
+  }
+}
+
+.router-link-active .btn {
+  background-color: #67aeca;
+  border-color: #67aeca;
+  color: #fff;
+}
+
+.router-link-exact-active .btn {
+  background: #347b97;
+}
